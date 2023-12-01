@@ -1,23 +1,10 @@
-/* Bonus */
-@media screen and (max-width: 1100px) {
-    .container {
-        width: 100%;
-    }
+.container {
+    max-width: 1140px;
+    width: 100%;
 }
-
-/* Tablet*/
-/* @media screen and (max-width: 768px) {
-    .container {
-        width: 768px;
-    }
-} */
 
 /* Mobile */
 @media screen and (max-width: 576px) {
-    /* .container {
-        width: 576px;
-    } */
-
     .row {
         flex-direction: column;
         gap: 60px;
@@ -27,19 +14,12 @@
         width: 100%;
     }
 
-    .lessons .col img {
-        max-width: 100%;
-    }
-
     .why-us .container {
         background-color: #222222;
         padding: 48px 20px;
     }
 
-    .why-us {
-        margin-bottom: 0;
-    }
-
+    .why-us,
     .steps {
         margin-bottom: 0;
     }
